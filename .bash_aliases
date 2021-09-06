@@ -18,6 +18,9 @@ alias ..="cd .."
 alias l.="ls -d .* --color=auto"
 alias lt='ls --human-readable --size -1 -S --classify'
 
+# Files
+alias cpv='rsync -ah --info=progress2' # Copy with progresbar
+
 # Network
 alias myip="curl ifconfig.me"
 
