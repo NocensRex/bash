@@ -1,5 +1,9 @@
+# Variables
+EDITOR=vim
+
 # Misc
 alias cal="ncal -M -3"
+alias .a="$EDITOR $HOME/.bash_aliases && source $HOME/.bash_aliases"
 
 # chmod and permissions
 alias mx="chmod +x"
