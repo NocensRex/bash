@@ -20,3 +20,7 @@ alias lt='ls --human-readable --size -1 -S --classify'
 
 # Network
 alias myip="curl ifconfig.me"
+
+# Python
+alias ve='python3 -m venv ./venv'
+alias va='source ./venv/bin/activate'
